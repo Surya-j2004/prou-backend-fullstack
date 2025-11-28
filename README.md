@@ -95,3 +95,16 @@ This project is deployed on Render's Free Tier.
 Cold Start: The server may sleep after inactivity. The first request might take ~60 seconds to wake it up.
 
 Persistence: It uses a file-based SQLite database. On the free tier, the database resets to the initial seed data (Sarah Chen & Marcus Johnson) whenever the server restarts or deploys. For a permanent production environment, I would configure a managed PostgreSQL instance.
+
+Swagger UI snapshots:
+![](./assets/pic1.png)
+
+![](./assets/pic2.png)
+
+![](./assets/pic3.png)
+
+![](./assets/pic4.png)
+
+![](./assets/pic5.png)
+
+![](./assets/pic6.png)
